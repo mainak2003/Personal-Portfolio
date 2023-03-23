@@ -2,8 +2,8 @@
 
 :root {
   --dark-one: rgb(19, 14, 84);
-  --dark-two: #12022c;
-  --main-color: #5011a2;
+  --dark-two: #1f242d;
+  --main-color: rgb(63,17,162);
   --light-one: rgb(29, 252, 70);
   --light-two: #8bc4fe;
   --light-three: #29fae9;
@@ -689,7 +689,7 @@ header .circle {
 }
 
 .gallery-image:hover img {
-  transform: translate(-50%, -50%) scale(1.1);
+  transform: translate(-50%, -50%) scale(1.2);
 }
 
 .more-folio {
@@ -804,7 +804,7 @@ header .circle {
 .record-circle.active {
   background-color: var(--light-one);
   color: var(--dark-one);
-  box-shadow: 0 0 0 15px rgb(255, 255, 255, 0.5);
+  box-shadow: 0 0 0 15px #29fae9;
 }
 
 .number {
@@ -954,7 +954,7 @@ header .circle {
 }
 
 .blog-card:hover .blog-image img {
-  transform: translate(-50%, -50%) scale(1.15);
+  transform: translate(-50%, -50%) scale(1.2);
 }
 
 .blog .points {
